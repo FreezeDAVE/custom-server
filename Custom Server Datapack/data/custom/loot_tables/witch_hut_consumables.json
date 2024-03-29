@@ -1,0 +1,83 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 1,
+        "max": 3
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:23,display:{Name:'{\"text\":\"Stoneskin Tonic\",\"color\":\"dark_aqua\",\"italic\":false}',Lore:['{\"text\":\"This potion makes the drinker tougher,\",\"italic\":false}','{\"text\":\"but also decreases their vision for\",\"italic\":false}','{\"text\":\"a short amount of time.\",\"italic\":false}']},CustomPotionEffects:[{Id:11,Amplifier:1b,Duration:600},{Id:33,Amplifier:0b,Duration:100}],CustomPotionColor:10485936}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:24,display:{Name:'{\"text\":\"Tonic of true Strength\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Before granting his potent benefit,\",\"italic\":false}','{\"text\":\"this potion puts the drinker\\'s\",\"italic\":false}','{\"text\":\"vitality to the test.\",\"italic\":false}']},CustomPotionEffects:[{Id:5,Amplifier:1b,Duration:3600},{Id:7,Amplifier:2b,Duration:1}],CustomPotionColor:16770560}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:25,display:{Name:'{\"text\":\"Health Tonic\",\"color\":\"light_purple\",\"italic\":false}',Lore:['{\"text\":\"This potion grants the drinker\",\"italic\":false}','{\"text\":\"additional vitality, but makes it\",\"italic\":false}','{\"text\":\"much harder to hide from the foe.\",\"italic\":false}']},CustomPotionEffects:[{Id:10,Amplifier:0b,Duration:100},{Id:21,Amplifier:0b,Duration:2400},{Id:24,Amplifier:0b,Duration:2400}],CustomPotionColor:14680204}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:potion",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:26,display:{Name:'{\"text\":\"Tonic of the Water\",\"color\":\"aqua\",\"italic\":false}',Lore:['{\"text\":\"Especially in water fights, this\",\"italic\":false}','{\"text\":\"potion offers several\",\"italic\":false}','{\"text\":\"advantages to the consumer,\",\"italic\":false}','{\"text\":\"but it is also quite debilitating.\",\"italic\":false}']},CustomPotionEffects:[{Id:13,Amplifier:0b,Duration:1800},{Id:17,Amplifier:2b,Duration:1800},{Id:30,Amplifier:0b,Duration:600}],CustomPotionColor:5033461}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:27,display:{Name:'{\"text\":\"Lucky Stew\",\"color\":\"dark_green\",\"italic\":false}',Lore:['{\"text\":\"Open a chest and get lucky.\",\"italic\":false}','{\"text\":\"Warning: May contain\",\"italic\":false}','{\"text\":\"an overdose of luck.\",\"italic\":false}']},Effects:[{duration:400,id:"minecraft:nausea"},{duration:600,id:"minecraft:luck"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:28,display:{Name:'{\"text\":\"Lava-Proof Stew\",\"color\":\"gold\",\"italic\":false}',Lore:['{\"text\":\"Escape the lava. But\",\"italic\":false}','{\"text\":\"watch where you are going.\",\"italic\":false}']},Effects:[{duration:240,id:"minecraft:fire_resistance"},{duration:240,id:"minecraft:weakness"},{duration:240,id:"minecraft:levitation"},{duration:200,id:"minecraft:darkness"}]}"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:suspicious_stew",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:29,display:{Name:'{\"text\":\"Stew of Regeneration\",\"color\":\"red\",\"italic\":false}',Lore:['{\"text\":\"Take a little break while\",\"italic\":false}','{\"text\":\"your body regenerates.\",\"italic\":false}']},Effects:[{duration:80,id:"minecraft:slowness"},{duration:1,id:"minecraft:instant_health"},{duration:80,id:"minecraft:regeneration"},{duration:20,id:"minecraft:saturation"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

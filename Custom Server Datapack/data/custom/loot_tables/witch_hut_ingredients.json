@@ -1,0 +1,163 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 8,
+        "max": 12
+      },
+	  "bonus_rolls": 2,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:spider_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:sugar"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:fermented_spider_eye"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nether_wart"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glowstone_dust"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gunpowder"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:glass_bottle"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rabbit_foot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:blaze_powder"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:ghast_tear"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:magma_cream"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:pufferfish"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:phantom_membrane"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+	  "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "weight": 2,
+          "name": "minecraft:bowl"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:brown_mushroom"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:red_mushroom"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:allium"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:azure_bluet"
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:blue_orchid"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:dandelion"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:cornflower"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lily_of_the_valley"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:oxeye_daisy"
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:poppy"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:torchflower"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:orange_tulip"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:pink_tulip"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:red_tulip"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:white_tulip"
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wither_rose"
+        }
+      ]
+    }
+  ]
+}

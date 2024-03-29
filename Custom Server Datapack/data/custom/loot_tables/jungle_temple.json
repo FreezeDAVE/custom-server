@@ -1,0 +1,235 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 0,
+        "max": 2
+      },
+      "bonus_rolls": {
+        "min": {
+          "min": 0,
+          "max": 1
+        },
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:wild_armor_trim_smithing_template"
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "bonus_rolls": {
+        "min": 0,
+        "max": 1
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_axe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:2,display:{Name:'{\"text\":\"Iron Battle-Axe\",\"italic\":false}',Lore:['{\"text\":\"A sharp one-handed battle axe.\",\"italic\":false}']},Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_sword",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:3,display:{Name:'{\"text\":\"Iron Dagger\",\"italic\":false}',Lore:['{\"text\":\"A short but sharp dagger.\",\"italic\":false}','{\"text\":\" \",\"italic\":false}','{\"text\":\"When in Main Hand:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\" 6 Attack Damage\",\"color\":\"dark_green\",\"italic\":false}','{\"text\":\" 2.6 Attack Speed\",\"color\":\"dark_green\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"minecraft:sharpness\",lvl:5s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:2,Operation:0,UUID:[I;1057524208,-797359673,-1712199703,535462749]},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-1.4,Operation:0,UUID:[I;-1910458767,1427980425,-1439313806,-874073383]}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_helmet",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:4,display:{Name:'{\"text\":\"Heavy Helmet\",\"italic\":false}',Lore:['{\"text\":\"An iron helmet that weighs\",\"italic\":false}','{\"text\":\"more than other helmets.\",\"italic\":false}','{\"text\":\" \",\"italic\":false}','{\"text\":\"When on Head:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+3 Armor\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-1122575037,-1666232936,-1829900175,-173855494],Slot:\"head\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.03,Operation:1,UUID:[I;-1991565039,-879148418,-1187654467,1744972492],Slot:\"head\"}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_chestplate",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:5,display:{Name:'{\"text\":\"Heavy Chestplate\",\"italic\":false}',Lore:['{\"text\":\"An iron chestplate that weighs\",\"italic\":false}','{\"text\":\"more than other chestplates.\",\"italic\":false}','{\"text\":\" \",\"italic\":false}','{\"text\":\"When on Body:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+8 Armor\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:8,Operation:0,UUID:[I;-1792941824,-1942142345,-1139823760,477456810],Slot:\"chest\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.03,Operation:1,UUID:[I;299997446,-659536905,-1305986697,-231850049],Slot:\"chest\"}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_leggings",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:6,display:{Name:'{\"text\":\"Heavy Leggings\",\"italic\":false}',Lore:['{\"text\":\"A pair of iron leggings that weighs\",\"italic\":false}','{\"text\":\"more than other leggings.\",\"italic\":false}','{\"text\":\" \",\"italic\":false}','{\"text\":\"When on Legs:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+6 Armor\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:6,Operation:0,UUID:[I;1243864335,510543245,-1733091849,-1335385530],Slot:\"legs\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.03,Operation:1,UUID:[I;798169464,879772122,-2065667131,850563235],Slot:\"legs\"}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_boots",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:7,display:{Name:'{\"text\":\"Heavy Boots\",\"italic\":false}',Lore:['{\"text\":\"A pair of iron boots that weighs\",\"italic\":false}','{\"text\":\"more than other boots.\",\"italic\":false}','{\"text\":\" \",\"italic\":false}','{\"text\":\"When on Feet:\",\"color\":\"gray\",\"italic\":false}','{\"text\":\"+3 Armor\",\"color\":\"blue\",\"italic\":false}']},HideFlags:2,Enchantments:[{id:\"minecraft:protection\",lvl:2s},{id:\"minecraft:unbreaking\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.armor\",Name:\"generic.armor\",Amount:3,Operation:0,UUID:[I;-616695137,451953948,-1644219409,-1863270777],Slot:\"feet\"},{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:-0.03,Operation:1,UUID:[I;2052356713,1928283550,-1940017114,1543384713],Slot:\"feet\"}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.8
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.1
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 6,
+        "max": 8
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:bamboo"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:rotten_flesh"
+        },
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:saddle"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:iron_horse_armor",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:golden_horse_armor",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.8
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:diamond_horse_armor",
+              "conditions": [
+                {
+                  "condition": "minecraft:random_chance",
+                  "chance": 0.8
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.2
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
