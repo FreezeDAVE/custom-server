@@ -1,0 +1,10 @@
+{
+    "pack": {
+        "pack_format": 15,
+        "supported_formats": {
+            "min_inclusive": 15,
+            "max_inclusive": 2147483647
+        },
+        "description": [{"text":"R","color":"dark_green"},{"text":"e","color":"#00be03"},{"text":"s","color":"#00be07"},{"text":"o","color":"#00be0b"},{"text":"u","color":"#00be0f"},{"text":"r","color":"#00be13"},{"text":"c","color":"#00be17"},{"text":"e","color":"#00be1b"},{"text":"p","color":"#00be1f"},{"text":"a","color":"#00be22"},{"text":"c","color":"#00be26"},{"text":"k ","color":"#00be2a"},{"text":"f","color":"#00bd2e"},{"text":"\u00fc","color":"#00be32"},{"text":"r ","color":"#00be36"},{"text":"d","color":"#00be3a"},{"text":"e","color":"#00be3e"},{"text":"n ","color":"#00be41"},{"text":"S","color":"#00be45"},{"text":"e","color":"#00be49"},{"text":"r","color":"#00be4d"},{"text":"v","color":"#00be51"},{"text":"e","color":"#00be55"},{"text":"r ","color":"#00be59"},{"text":"m","color":"#00be5d"},{"text":"i","color":"#00be60"},{"text":"t ","color":"#00be64"},{"text":"C","color":"#00be68"},{"text":"u","color":"#00be6c"},{"text":"s","color":"#00be70"},{"text":"t","color":"#00be74"},{"text":"o","color":"#00be78"},{"text":"m ","color":"#00be7c"},{"text":"M","color":"#00be7f"},{"text":"a","color":"#00be83"},{"text":"p ","color":"#00be87"},{"text":"u","color":"#00be8b"},{"text":"n","color":"#00be8f"},{"text":"d ","color":"#00be93"},{"text":"C","color":"#00be97"},{"text":"u","color":"#00be9b"},{"text":"s","color":"#00be9e"},{"text":"t","color":"#00bea2"},{"text":"o","color":"#00bea6"},{"text":"m ","color":"#00beaa"},{"text":"I","color":"#00beae"},{"text":"t","color":"#00beb2"},{"text":"e","color":"#00beb6"},{"text":"m","color":"#00beba"},{"text":"s","color":"dark_aqua"}]
+    }
+}
