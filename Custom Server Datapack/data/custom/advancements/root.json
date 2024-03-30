@@ -1,0 +1,25 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword",
+      "nbt": "{CustomModelData:1,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Custom Server",
+      "color": "#e08d0c",
+      "bold": true
+    },
+    "description": {
+      "text": "Willkommen auf FeuerSmilodons und FreezeDAVEs Custom Server mit Custom Map und Custom Items.",
+      "color": "#1d740e"
+    },
+    "background": "minecraft:textures/block/moss_block.png",
+    "show_toast": false,
+    "announce_to_chat": false
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick"
+    }
+  }
+}

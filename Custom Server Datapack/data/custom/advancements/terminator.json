@@ -1,0 +1,41 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword",
+      "nbt": "{Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Terminator",
+      "color": "#e08d0c",
+      "bold": true
+    },
+    "description": {
+      "text": "Töte 100 Spieler",
+      "color": "#d4a965",
+      "bold": false
+    },
+    "frame": "challenge"
+  },
+  "parent": "custom:zerstoerer",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:player_killed_entity",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "killer",
+            "scores": {
+              "kills": {
+                "min": 100
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 1000
+  }
+}

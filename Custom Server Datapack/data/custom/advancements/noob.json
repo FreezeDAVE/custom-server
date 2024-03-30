@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:brown_wool"
+    },
+    "title": {
+      "text": "Noob",
+      "color": "#633309"
+    },
+    "description": {
+      "text": "Stirb 30 Mal",
+      "color": "#976b4c"
+    },
+    "hidden": true
+  },
+  "parent": "custom:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:tick",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_scores",
+            "entity": "this",
+            "scores": {
+              "deaths": {
+                "min": 30
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}
