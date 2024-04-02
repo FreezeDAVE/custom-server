@@ -3,6 +3,10 @@
   "pools": [
     {
       "rolls": 20,
+      "bonus_rolls": {
+        "min": 4,
+        "max": 6
+      },
       "entries": [
         {
           "type": "minecraft:item",

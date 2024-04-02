@@ -41,7 +41,10 @@
     },
     {
       "rolls": 15,
-      "bonus_rolls": 3,
+      "bonus_rolls": {
+        "min": 4,
+        "max": 5
+      },
       "entries": [
         {
           "type": "minecraft:item",

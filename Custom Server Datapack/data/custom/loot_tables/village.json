@@ -3,7 +3,7 @@
   "pools": [
     {
       "rolls": 20,
-      "bonus_rolls": 1,
+      "bonus_rolls": 5,
       "entries": [
         {
           "type": "minecraft:item",
@@ -49,6 +49,7 @@
     },
     {
       "rolls": 1,
+      "bonus_rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",

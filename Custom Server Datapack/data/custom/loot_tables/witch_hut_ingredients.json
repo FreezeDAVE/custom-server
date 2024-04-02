@@ -6,7 +6,10 @@
         "min": 8,
         "max": 12
       },
-	  "bonus_rolls": 2,
+      "bonus_rolls": {
+        "min": 4,
+        "max": 5
+      },
       "entries": [
         {
           "type": "minecraft:item",
@@ -71,12 +74,15 @@
         "min": 4,
         "max": 6
       },
-	  "bonus_rolls": 1,
+      "bonus_rolls": {
+        "min": 2,
+        "max": 3
+      },
       "entries": [
         {
           "type": "minecraft:item",
-          "weight": 2,
-          "name": "minecraft:bowl"
+          "name": "minecraft:bowl",
+          "weight": 2
         },
         {
           "type": "minecraft:item",
