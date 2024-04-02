@@ -6,7 +6,13 @@
     "overrides": [
       {
         "predicate": {
-          "custom_model_data": 2
+          "custom_model_data": 30
+        },
+        "model": "minecraft:item/maniac_miner"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 32
         },
         "model": "minecraft:item/gentle_stonemason"
       }

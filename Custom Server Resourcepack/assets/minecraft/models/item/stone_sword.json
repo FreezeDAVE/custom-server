@@ -1,14 +1,14 @@
 {
     "parent": "minecraft:item/handheld",
     "textures": {
-      "layer0": "minecraft:item/netherite_shovel"
+      "layer0": "minecraft:item/stone_sword"
     },
     "overrides": [
       {
         "predicate": {
-          "custom_model_data": 34
+          "custom_model_data": 3
         },
-        "model": "minecraft:item/gentle_soil_digger"
+        "model": "minecraft:item/demon_dagger"
       }
     ]
 }

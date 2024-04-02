@@ -6,7 +6,7 @@
     "overrides": [
       {
         "predicate": {
-          "custom_model_data": 5
+          "custom_model_data": 35
         },
         "model": "minecraft:item/gentle_farmland_tiller"
       }

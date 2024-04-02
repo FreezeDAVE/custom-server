@@ -6,9 +6,15 @@
     "overrides": [
       {
         "predicate": {
-          "custom_model_data": 1
+          "custom_model_data": 4
         },
         "model": "minecraft:item/frozen_blade"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 5
+        },
+        "model": "minecraft:item/mendacious_sword"
       }
     ]
 }

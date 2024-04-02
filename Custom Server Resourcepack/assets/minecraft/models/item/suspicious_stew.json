@@ -6,19 +6,19 @@
     "overrides": [
       {
         "predicate": {
-          "custom_model_data": 27
-        },
-        "model": "minecraft:item/lucky_stew"
-      },
-      {
-        "predicate": {
-          "custom_model_data": 28
+          "custom_model_data": 40
         },
         "model": "minecraft:item/lava-proof_stew"
       },
       {
         "predicate": {
-          "custom_model_data": 29
+          "custom_model_data": 41
+        },
+        "model": "minecraft:item/lucky_stew"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 42
         },
         "model": "minecraft:item/stew_of_regeneration"
       }
