@@ -1,14 +1,15 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:diamond_sword"
+      "item": "minecraft:diamond_sword",
+      "nbt": "{Enchantments:[{}]}"
     },
     "title": {
       "text": "Zerstörer",
       "color": "#373533"
     },
     "description": {
-      "text": "Töte 50 Spieler",
+      "text": "Töte 25 Spieler",
       "color": "#3c3c3c"
     },
     "frame": "goal"
@@ -24,7 +25,7 @@
             "entity": "killer",
             "scores": {
               "kills": {
-                "min": 50
+                "min": 25
               }
             }
           }
@@ -33,6 +34,6 @@
     }
   },
   "rewards": {
-    "experience": 500
+    "experience": 250
   }
 }

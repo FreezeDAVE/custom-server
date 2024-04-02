@@ -1,8 +1,8 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:netherite_sword",
-      "nbt": "{Enchantments:[{}]}"
+      "item": "minecraft:iron_axe",
+      "nbt": "{CustomModelData:8,Enchantments:[{}]}"
     },
     "title": {
       "text": "Terminator",
@@ -10,7 +10,7 @@
       "bold": true
     },
     "description": {
-      "text": "Töte 100 Spieler",
+      "text": "Töte 50 Spieler",
       "color": "#d4a965",
       "bold": false
     },
@@ -27,7 +27,7 @@
             "entity": "killer",
             "scores": {
               "kills": {
-                "min": 100
+                "min": 50
               }
             }
           }
@@ -36,6 +36,9 @@
     }
   },
   "rewards": {
-    "experience": 1000
+    "loot": [
+      "custom:advancement_rewards/terminator"
+    ],
+    "experience": 500
   }
 }

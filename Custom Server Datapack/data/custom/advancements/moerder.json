@@ -8,7 +8,7 @@
       "color": "#85827d"
     },
     "description": {
-      "text": "Töte 25 Spieler",
+      "text": "Töte 10 Spieler",
       "color": "#929292"
     }
   },
@@ -23,7 +23,7 @@
             "entity": "killer",
             "scores": {
               "kills": {
-                "min": 25
+                "min": 10
               }
             }
           }
@@ -32,6 +32,6 @@
     }
   },
   "rewards": {
-    "experience": 250
+    "experience": 100
   }
 }
