@@ -1,21 +1,20 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:heart_pottery_sherd",
+      "item": "minecraft:firework_rocket",
       "nbt": "{Enchantments:[{}]}"
     },
     "title": {
-      "text": "True Hardcore",
-      "color": "#d43131"
+      "text": "Pyrotechniker",
+      "color": "#ad3c1a"
     },
     "description": {
-      "text": "Stirb kein einziges Mal (wird nach 24 Stunden Spielzeit ausgelöst)",
-      "color": "#dd6262"
+      "text": "Zünde 500 Raketen",
+      "color": "#b76248"
     },
-    "frame": "challenge",
-    "hidden": true
+    "frame": "goal"
   },
-  "parent": "custom:hardcore",
+  "parent": "custom:boellerer",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick",
@@ -25,11 +24,8 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "time_played": {
-                "min": 1728000
-              },
-              "deaths": {
-                "max": 0
+              "rockets_used": {
+                "min": 500
               }
             }
           }
@@ -38,6 +34,6 @@
     }
   },
   "rewards": {
-    "experience": 1000
+    "experience": 250
   }
 }

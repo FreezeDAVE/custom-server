@@ -1,22 +1,22 @@
 {
   "display": {
     "icon": {
-      "item": "minecraft:shield",
-      "nbt": "{CustomModelData:14,BlockEntityTag:{Base:15,Patterns:[{Color:7,Pattern:\"gra\"},{Color:8,Pattern:\"flo\"}]},Enchantments:[{}]}"
+      "item": "minecraft:crossbow",
+      "nbt": "{CustomModelData:11,Enchantments:[{}]}"
     },
     "title": {
-      "text": "Hardcore",
-      "color": "#d43131",
+      "text": "Feuerwerksmeister",
+      "color": "#bc1711",
       "bold": true
     },
     "description": {
-      "text": "Stirb 24 Stunden lang nicht",
-      "color": "#dd6262",
+      "text": "Zünde 1000 Raketen",
+      "color": "#ab4e4b",
       "bold": false
     },
     "frame": "challenge"
   },
-  "parent": "custom:root",
+  "parent": "custom:pyrotechniker",
   "criteria": {
     "requirement": {
       "trigger": "minecraft:tick",
@@ -26,8 +26,8 @@
             "condition": "minecraft:entity_scores",
             "entity": "this",
             "scores": {
-              "death_time": {
-                "min": 1728000
+              "rockets_used": {
+                "min": 1000
               }
             }
           }
@@ -37,7 +37,7 @@
   },
   "rewards": {
     "loot": [
-      "custom:advancement_rewards/the_black_phalanx"
+      "custom:advancement_rewards/rapid_fire_crossbow"
     ],
     "experience": 500
   }

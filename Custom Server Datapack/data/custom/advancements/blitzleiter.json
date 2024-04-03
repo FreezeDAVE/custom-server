@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:lightning_rod"
+    },
+    "title": {
+      "text": "Blitzleiter",
+      "color": "#cfc83b"
+    },
+    "description": {
+      "text": "Habe einen Zombie-, Skelett- oder Creeperkopf im Inventar",
+      "color": "#d8d378"
+    }
+  },
+  "parent": "custom:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:zombie_head",
+              "minecraft:skeleton_skull",
+              "minecraft:creeper_head"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "experience": 100
+  }
+}

@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:crossbow",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:11,display:{Name:'{\"text\":\"Rapid Fire Crossbow\",\"color\":\"gray\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"This Crossbow is capable\",\"italic\":false}','{\"text\":\"of firing tremendous amounts of projectiles\",\"italic\":false}','{\"text\":\"in a very short time,\",\"italic\":false}','{\"text\":\"resources are your only limitation.\",\"italic\":false}']},HideFlags:1,Unbreakable:1b,Enchantments:[{id:\"minecraft:multishot\",lvl:1s},{id:\"minecraft:quick_charge\",lvl:5s}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

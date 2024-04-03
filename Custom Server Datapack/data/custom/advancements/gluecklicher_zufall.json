@@ -1,0 +1,37 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_pickaxe",
+      "nbt": "{CustomModelData:29,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Glücklicher Zufall",
+      "color": "#0f6008",
+      "bold": true
+    },
+    "description": {
+      "text": "Fische etwas mit einer Luck of the Sea III Angel, während du den Effekt Glück hast",
+      "color": "#395b36"
+    },
+    "frame": "challenge"
+  },
+  "parent": "custom:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:luck": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  }
+}

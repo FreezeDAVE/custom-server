@@ -1,0 +1,19 @@
+{
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:13,display:{Name:'{\"text\":\"Stormbringer\\'s Retribution\",\"color\":\"blue\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"This trident is an incredibly powerful weapon\",\"italic\":false}','{\"text\":\"that can be utilized with great effectiveness in close combat,\",\"italic\":false}','{\"text\":\"similar to a sword.\",\"italic\":false}','{\"text\":\"Furthermore, it possesses the remarkable ability\",\"italic\":false}','{\"text\":\"to return to the wielder when thrown.\",\"italic\":false}','{\"text\":\" \"}','{\"translate\":\"item.modifiers.mainhand\",\"color\":\"gray\",\"italic\":false}','[{\"text\":\" 12 \",\"color\":\"dark_green\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_damage\",\"color\":\"dark_green\",\"italic\":false}]','[{\"text\":\" 1.6 \",\"color\":\"dark_green\",\"italic\":false},{\"translate\":\"attribute.name.generic.attack_speed\",\"color\":\"dark_green\",\"italic\":false}]']},HideFlags:3,RepairCost:40,Unbreakable:1b,Enchantments:[{id:\"minecraft:channeling\",lvl:1s},{id:\"minecraft:impaling\",lvl:5s},{id:\"minecraft:loyalty\",lvl:3s}],AttributeModifiers:[{AttributeName:\"generic.attack_damage\",Name:\"generic.attack_damage\",Amount:11,Operation:0,UUID:[I;1084287444,880756443,-1103901261,-1570968330],Slot:\"mainhand\"},{AttributeName:\"generic.attack_speed\",Name:\"generic.attack_speed\",Amount:-2.4,Operation:0,UUID:[I;-157665381,-458731836,-1344740782,214062577],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

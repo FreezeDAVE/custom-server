@@ -1,0 +1,50 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:trident",
+      "nbt": "{CustomModelData:13,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Meister der Blitze",
+      "color": "#0bb9b1",
+      "bold": true
+    },
+    "description": {
+      "text": "Habe einen Zombie-, Skelett- und Creeperkopf gleichzeitig im Inventar",
+      "color": "#5fc5c1",
+      "bold": false
+    },
+    "frame": "challenge"
+  },
+  "parent": "custom:blitzleiter",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:zombie_head"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:skeleton_skull"
+            ]
+          },
+          {
+            "items": [
+              "minecraft:creeper_head"
+            ]
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "loot": [
+      "custom:advancement_rewards/stormbringers_retribution"
+    ],
+    "experience": 500
+  }
+}

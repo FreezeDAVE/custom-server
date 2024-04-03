@@ -37,7 +37,7 @@
   },
   "rewards": {
     "loot": [
-      "custom:advancement_rewards/terminator"
+      "custom:advancement_rewards/act_of_violence"
     ],
     "experience": 500
   }
