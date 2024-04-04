@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:advancement_reward",
+  "pools": [
+    {
+      "rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond_pickaxe",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:29,display:{Name:'{\"text\":\"Bringer of Fortune\",\"color\":\"dark_purple\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"This unique pickaxe leads its\",\"italic\":false}','{\"text\":\"owner to wealth and prosperity.\",\"italic\":false}']},HideFlags:1,RepairCost:40,Unbreakable:1b,Enchantments:[{id:\"minecraft:efficiency\",lvl:3s},{id:\"minecraft:fortune\",lvl:6s}],AttributeModifiers:[{AttributeName:\"generic.movement_speed\",Name:\"generic.movement_speed\",Amount:0.1,Operation:1,UUID:[I;-1161346963,-1105903272,-1537925097,1481939905],Slot:\"mainhand\"}]}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

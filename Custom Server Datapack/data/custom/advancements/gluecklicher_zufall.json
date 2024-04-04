@@ -11,27 +11,21 @@
     },
     "description": {
       "text": "Fische etwas mit einer Luck of the Sea III Angel, während du den Effekt Glück hast",
-      "color": "#395b36"
+      "color": "#395b36",
+      "bold": false
     },
     "frame": "challenge"
   },
   "parent": "custom:root",
   "criteria": {
     "requirement": {
-      "trigger": "minecraft:fishing_rod_hooked",
-      "conditions": {
-        "player": [
-          {
-            "condition": "minecraft:entity_properties",
-            "entity": "this",
-            "predicate": {
-              "effects": {
-                "minecraft:luck": {}
-              }
-            }
-          }
-        ]
-      }
+      "trigger": "minecraft:impossible"
     }
+  },
+  "rewards": {
+    "loot": [
+      "custom:advancement_rewards/bringer_of_fortune"
+    ],
+    "experience": 500
   }
 }

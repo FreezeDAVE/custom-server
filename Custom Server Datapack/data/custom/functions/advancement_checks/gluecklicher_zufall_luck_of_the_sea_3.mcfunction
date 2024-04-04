@@ -1,0 +1,2 @@
+execute if entity @a[advancements={custom:checks/gluecklicher_zufall=true},nbt={SelectedItem:{id:"minecraft:fishing_rod",tag:{Enchantments:[{id:"minecraft:luck_of_the_sea",lvl:3s}]}}}] run schedule function custom:advancement_checks/gluecklicher_zufall_item 1
+schedule function custom:advancement_checks/gluecklicher_zufall_check_revoke 1

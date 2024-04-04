@@ -1,0 +1,1 @@
+advancement revoke @a[advancements={custom:checks/gluecklicher_zufall=true}] only custom:checks/gluecklicher_zufall

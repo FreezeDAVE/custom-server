@@ -1,0 +1,1 @@
+execute at @a[advancements={custom:checks/gluecklicher_zufall=true}] if entity @e[type=minecraft:item,distance=..33] run advancement grant @a[advancements={custom:checks/gluecklicher_zufall=true}] only custom:gluecklicher_zufall

@@ -1,0 +1,33 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:fishing_rod"
+    },
+    "title": "Glücklicher Zufall Check",
+    "description": "Falls du dies siehst, ist es ein Bug. Bitte melde es FreezeDAVE.",
+    "show_toast": false,
+    "announce_to_chat": false,
+    "hidden": true
+  },
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:fishing_rod_hooked",
+      "conditions": {
+        "player": [
+          {
+            "condition": "minecraft:entity_properties",
+            "entity": "this",
+            "predicate": {
+              "effects": {
+                "minecraft:luck": {}
+              }
+            }
+          }
+        ]
+      }
+    }
+  },
+  "rewards": {
+    "function": "custom:advancement_checks/gluecklicher_zufall_luck_of_the_sea_3"
+  }
+}
