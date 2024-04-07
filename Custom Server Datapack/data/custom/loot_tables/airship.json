@@ -13,27 +13,31 @@
           "name": "minecraft:string"
         },
         {
-          "type": "minecraft:tag",
-          "name": "minecraft:logs_that_burn",
-          "expand": true,
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:wheat_seeds"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:pumpkin_seeds"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:melon_seeds"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:beetroot_seeds"
+            }
+          ],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.15
+              "chance": 0.6
             }
           ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:melon_seeds"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:pumpkin_seeds"
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:wheat_seeds"
         },
         {
           "type": "minecraft:item",
@@ -88,76 +92,98 @@
       ]
     },
     {
+      "rolls": {
+        "min": 1,
+        "max": {
+          "min": 1,
+          "max": 3
+        }
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:burn_pottery_sherd"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:danger_pottery_sherd"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:friend_pottery_sherd"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:heart_pottery_sherd"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:heartbreak_pottery_sherd"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:howl_pottery_sherd"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:sheaf_pottery_sherd"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:wayfinder_armor_trim_smithing_template"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:raiser_armor_trim_smithing_template"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:shaper_armor_trim_smithing_template"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:host_armor_trim_smithing_template"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:dune_armor_trim_smithing_template"
+            }
+          ]
+        }
+      ]
+    },
+    {
       "rolls": 1,
       "bonus_rolls": 1,
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "minecraft:blade_pottery_sherd",
-          "conditions": [
+          "name": "minecraft:elytra",
+          "functions": [
             {
-              "condition": "minecraft:random_chance",
-              "chance": 0.15
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:19,display:{Name:'{\"text\":\"Infrangible Elytra\",\"color\":\"dark_blue\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"This elytra allows you to fly indefinitely.\",\"italic\":false}']},HideFlags:1,RepairCost:40,Unbreakable:1b,Enchantments:[{id:\"minecraft:mending\",lvl:1s}]}"
             }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:explorer_pottery_sherd",
+          ],
           "conditions": [
             {
               "condition": "minecraft:random_chance",
-              "chance": 0.15
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:mourner_pottery_sherd",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.15
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:plenty_pottery_sherd",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.15
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:angler_pottery_sherd",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.15
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:shelter_pottery_sherd",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.15
-            }
-          ]
-        },
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:snort_pottery_sherd",
-          "conditions": [
-            {
-              "condition": "minecraft:random_chance",
-              "chance": 0.15
+              "chance": 0.05
             }
           ]
         }

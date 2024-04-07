@@ -1,0 +1,150 @@
+{
+  "type": "minecraft:chest",
+  "pools": [
+    {
+      "rolls": {
+        "min": 16,
+        "max": 18
+      },
+      "bonus_rolls": {
+        "min": 4,
+        "max": 5
+      },
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:gold_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:emerald",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:lapis_lazuli",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.5
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:diamond",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.25
+            }
+          ]
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:netherite_ingot",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.06
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": {
+          "min": {
+            "min": 0,
+            "max": 1
+          },
+          "max": 1
+        },
+        "max": 1
+      },
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:vex_armor_trim_smithing_template"
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:silence_armor_trim_smithing_template"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:group",
+          "children": [
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:netherite_pickaxe",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:32,display:{Name:'{\"text\":\"Gentle Stonemason\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"With this carefully crafted pickaxe,\",\"italic\":false}','{\"text\":\"you can gently mine stony items.\",\"italic\":false}']},HideFlags:1,RepairCost:40,Enchantments:[{id:\"minecraft:efficiency\",lvl:6s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:netherite_axe",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:33,display:{Name:'{\"text\":\"Gentle Woodcutter\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"With this carefully crafted axe,\",\"italic\":false}','{\"text\":\"you can gently cut wooden items.\",\"italic\":false}']},HideFlags:1,RepairCost:40,Enchantments:[{id:\"minecraft:efficiency\",lvl:6s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:netherite_shovel",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:34,display:{Name:'{\"text\":\"Gentle Soil Digger\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"With this carefully crafted shovel,\",\"italic\":false}','{\"text\":\"you can gently dig soil items.\",\"italic\":false}']},HideFlags:1,RepairCost:40,Enchantments:[{id:\"minecraft:efficiency\",lvl:6s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                }
+              ]
+            },
+            {
+              "type": "minecraft:item",
+              "name": "minecraft:netherite_hoe",
+              "functions": [
+                {
+                  "function": "minecraft:set_nbt",
+                  "tag": "{CustomModelData:35,display:{Name:'{\"text\":\"Gentle Farmland Tiller\",\"color\":\"light_purple\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"With this carefully crafted hoe,\",\"italic\":false}','{\"text\":\"you can gently till farmland and mine leafy blocks.\",\"italic\":false}']},HideFlags:1,RepairCost:40,Enchantments:[{id:\"minecraft:efficiency\",lvl:6s},{id:\"minecraft:silk_touch\",lvl:1s},{id:\"minecraft:mending\",lvl:1s},{id:\"minecraft:unbreaking\",lvl:3s}]}"
+                }
+              ]
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

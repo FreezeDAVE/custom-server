@@ -3,10 +3,13 @@
   "pools": [
     {
       "rolls": {
-        "min": 7,
-        "max": 12
+        "min": 5,
+        "max": 7
       },
-      "bonus_rolls": 4,
+      "bonus_rolls": {
+        "min": 2,
+        "max": 4
+      },
       "entries": [
         {
           "type": "minecraft:group",
@@ -27,8 +30,40 @@
               "type": "minecraft:item",
               "name": "minecraft:spruce_log"
             }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.85
+            }
           ]
         },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:iron_ingot"
+        },
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:nautilus_shell",
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.75
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "rolls": {
+        "min": 4,
+        "max": 6
+      },
+      "bonus_rolls": {
+        "min": 2,
+        "max": 3
+      },
+      "entries": [
         {
           "type": "minecraft:group",
           "children": [
@@ -53,22 +88,6 @@
               "name": "minecraft:vine"
             }
           ]
-        }
-      ]
-    },
-    {
-      "rolls": {
-        "min": 6,
-        "max": 8
-      },
-      "bonus_rolls": {
-        "min": 2,
-        "max": 4
-      },
-      "entries": [
-        {
-          "type": "minecraft:item",
-          "name": "minecraft:iron_ingot"
         },
         {
           "type": "minecraft:item",
@@ -121,6 +140,38 @@
         {
           "type": "minecraft:item",
           "name": "minecraft:heart_of_the_sea"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:coast_armor_trim_smithing_template"
+        }
+      ]
+    },
+    {
+      "rolls": 1,
+      "bonus_rolls": 1,
+      "entries": [
+        {
+          "type": "minecraft:item",
+          "name": "minecraft:trident",
+          "functions": [
+            {
+              "function": "minecraft:set_nbt",
+              "tag": "{CustomModelData:12,display:{Name:'{\"text\":\"Fast & Fascinating Fork\",\"color\":\"dark_aqua\",\"bold\":true,\"italic\":false}',Lore:['{\"text\":\"This stunning trident is expertly crafted\",\"italic\":false}','{\"text\":\"in order to significantly increase speed\",\"italic\":false}','{\"text\":\"in both water and rain.\",\"italic\":false}']},HideFlags:1,RepairCost:40,Unbreakable:1b,Enchantments:[{id:\"minecraft:riptide\",lvl:5s}]}"
+            }
+          ],
+          "conditions": [
+            {
+              "condition": "minecraft:random_chance",
+              "chance": 0.05
+            }
+          ]
         }
       ]
     }

@@ -1,0 +1,19 @@
+{
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+        "#Q",
+        "Q#"
+    ],
+    "key": {
+        "#": {
+            "item": "minecraft:nether_wart"
+        },
+        "Q": {
+            "item": "minecraft:quartz"
+        }
+    },
+    "result": {
+        "item": "minecraft:netherrack",
+        "count": 4
+    }
+}
