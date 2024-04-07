@@ -8,9 +8,14 @@
         "#": {
             "item": "minecraft:netherrack"
         },
-        "S": {
-            "item": "minecraft:sand"
-        }
+        "S": [
+            {
+                "item": "minecraft:sand"
+            },
+            {
+                "item": "minecraft:red_sand"
+            }
+        ]
     },
     "result": {
         "item": "minecraft:soul_sand",
