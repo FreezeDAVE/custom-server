@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:trident",
+      "nbt": "{CustomModelData:12,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Bezwinger des Wassers",
+      "color": "#2d80d7",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme einen Fast & Fascinating Fork",
+      "color": "#6aa3df",
+      "bold": false
+    },
+    "frame": "goal"
+  },
+  "parent": "custom:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:trident"
+            ],
+            "nbt": "{CustomModelData:12}"
+          }
+        ]
+      }
+    }
+  }
+}

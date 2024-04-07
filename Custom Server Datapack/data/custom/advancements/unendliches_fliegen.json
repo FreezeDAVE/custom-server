@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:elytra",
+      "nbt": "{CustomModelData:19,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Unendliches Fliegen",
+      "color": "#2d80d7",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme eine Infrangible Elytra",
+      "color": "#6aa3df",
+      "bold": false
+    },
+    "frame": "goal"
+  },
+  "parent": "custom:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ],
+            "nbt": "{CustomModelData:19}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,35 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bow",
+      "nbt": "{CustomModelData:10,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Wahre Unendlichkeit",
+      "color": "#2d80d7",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme einen Truly Infinite Bow",
+      "color": "#6aa3df",
+      "bold": false
+    },
+    "frame": "goal"
+  },
+  "parent": "custom:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bow"
+            ],
+            "nbt": "{CustomModelData:10}"
+          }
+        ]
+      }
+    }
+  }
+}

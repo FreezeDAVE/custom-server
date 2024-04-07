@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_shovel",
+      "nbt": "{CustomModelData:34,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Schnelle Schaufel",
+      "color": "#2d80d7",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme einen Gentle Soil Digger",
+      "color": "#6aa3df",
+      "bold": false
+    }
+  },
+  "parent": "custom:schnelle_axt",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_shovel"
+            ],
+            "nbt": "{CustomModelData:34}"
+          }
+        ]
+      }
+    }
+  }
+}

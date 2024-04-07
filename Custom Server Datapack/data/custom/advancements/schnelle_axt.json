@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_axe",
+      "nbt": "{CustomModelData:33,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Schnelle Axt",
+      "color": "#2d80d7",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme einen Gentle Woodcutter",
+      "color": "#6aa3df",
+      "bold": false
+    }
+  },
+  "parent": "custom:schnelle_spitzhacke",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_axe"
+            ],
+            "nbt": "{CustomModelData:33}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_hoe",
+      "nbt": "{CustomModelData:35,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Schnelle Hacke",
+      "color": "#2d80d7",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme einen Gentle Farmland Tiller",
+      "color": "#6aa3df",
+      "bold": false
+    }
+  },
+  "parent": "custom:schnelle_schaufel",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_hoe"
+            ],
+            "nbt": "{CustomModelData:35}"
+          }
+        ]
+      }
+    }
+  }
+}

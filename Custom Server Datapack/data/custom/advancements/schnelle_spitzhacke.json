@@ -1,0 +1,34 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_pickaxe",
+      "nbt": "{CustomModelData:32,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Schnelle Spitzhacke",
+      "color": "#2d80d7",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme einen Gentle Stonemason",
+      "color": "#6aa3df",
+      "bold": false
+    }
+  },
+  "parent": "custom:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_pickaxe"
+            ],
+            "nbt": "{CustomModelData:32}"
+          }
+        ]
+      }
+    }
+  }
+}
