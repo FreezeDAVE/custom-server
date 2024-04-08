@@ -4,6 +4,7 @@ scoreboard players set @a deaths 0
 scoreboard players set @a kills 0
 scoreboard players set @a time_played 0
 scoreboard players set @a rockets_used 0
+scoreboard players set @a got_hardcore 0
 gamerule doDaylightCycle true
 gamerule doWeatherCycle true
 gamerule doMobSpawning true

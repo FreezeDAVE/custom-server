@@ -36,9 +36,7 @@
     }
   },
   "rewards": {
-    "loot": [
-      "custom:advancement_rewards/the_black_phalanx"
-    ],
+    "function": "custom:advancement_checks/hardcore",
     "experience": 500
   }
 }

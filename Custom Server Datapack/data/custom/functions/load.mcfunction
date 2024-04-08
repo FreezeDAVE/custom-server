@@ -3,3 +3,4 @@ scoreboard objectives add deaths deathCount
 scoreboard objectives add kills playerKillCount
 scoreboard objectives add time_played minecraft.custom:minecraft.play_time
 scoreboard objectives add rockets_used minecraft.used:minecraft.firework_rocket
+scoreboard objectives add got_hardcore dummy
