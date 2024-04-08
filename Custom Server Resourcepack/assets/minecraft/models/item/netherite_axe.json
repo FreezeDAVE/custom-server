@@ -9,6 +9,12 @@
           "custom_model_data": 33
         },
         "model": "minecraft:item/gentle_woodcutter"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 34
+        },
+        "model": "minecraft:item/netherite_axe"
       }
     ]
 }

@@ -12,9 +12,21 @@
       },
       {
         "predicate": {
+          "custom_model_data": 31
+        },
+        "model": "minecraft:item/netherite_pickaxe"
+      },
+      {
+        "predicate": {
           "custom_model_data": 32
         },
         "model": "minecraft:item/gentle_stonemason"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 33
+        },
+        "model": "minecraft:item/netherite_pickaxe"
       }
     ]
 }

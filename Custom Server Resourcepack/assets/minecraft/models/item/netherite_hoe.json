@@ -9,6 +9,12 @@
           "custom_model_data": 35
         },
         "model": "minecraft:item/gentle_farmland_tiller"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 36
+        },
+        "model": "minecraft:item/netherite_hoe"
       }
     ]
 }

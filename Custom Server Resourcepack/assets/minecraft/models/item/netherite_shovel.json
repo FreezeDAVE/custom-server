@@ -9,6 +9,12 @@
           "custom_model_data": 34
         },
         "model": "minecraft:item/gentle_soil_digger"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 35
+        },
+        "model": "minecraft:item/netherite_shovel"
       }
     ]
 }

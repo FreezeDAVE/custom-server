@@ -9,6 +9,12 @@
           "custom_model_data": 2
         },
         "model": "minecraft:item/burning_blade"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 3
+        },
+        "model": "minecraft:item/netherite_sword"
       }
     ]
 }

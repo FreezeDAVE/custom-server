@@ -9,6 +9,12 @@
           "custom_model_data": 8
         },
         "model": "minecraft:item/act_of_violence"
+      },
+      {
+        "predicate": {
+          "custom_model_data": 9
+        },
+        "model": "minecraft:item/iron_axe"
       }
     ]
 }
