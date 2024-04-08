@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:diamond_sword",
+      "nbt": "{CustomModelData:5,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Vertrauenswürdiges Schwert",
+      "color": "#e08d0c",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme das Mendacious Sword",
+      "color": "#d4a965",
+      "bold": false
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "custom:einfrierende_klinge",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:diamond_sword"
+            ],
+            "nbt": "{CustomModelData:5}"
+          }
+        ]
+      }
+    }
+  }
+}

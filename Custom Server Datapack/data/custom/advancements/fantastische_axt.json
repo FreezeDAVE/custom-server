@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:golden_axe",
+      "nbt": "{CustomModelData:31,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Fantastische Axt",
+      "color": "#e08d0c",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme den Woodchuck",
+      "color": "#d4a965",
+      "bold": false
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "custom:fantastische_spitzhacke",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:golden_axe"
+            ],
+            "nbt": "{CustomModelData:31}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_chestplate",
+      "nbt": "{CustomModelData:26,Enchantments:[{}],Trim:{material:\"minecraft:redstone\",pattern:\"minecraft:coast\"}}"
+    },
+    "title": {
+      "text": "Stark belastbare Rüstung",
+      "color": "#e08d0c",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme die komplette Godbreaker Rüstung",
+      "color": "#d4a965",
+      "bold": false
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "custom:bewegliche_ruestung",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_helmet"
+            ],
+            "nbt": "{CustomModelData:25}"
+          },
+          {
+            "items": [
+              "minecraft:netherite_chestplate"
+            ],
+            "nbt": "{CustomModelData:26}"
+          },
+          {
+            "items": [
+              "minecraft:netherite_leggings"
+            ],
+            "nbt": "{CustomModelData:27}"
+          },
+          {
+            "items": [
+              "minecraft:netherite_boots"
+            ],
+            "nbt": "{CustomModelData:28}"
+          }
+        ]
+      }
+    }
+  }
+}

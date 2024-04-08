@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword",
+      "nbt": "{CustomModelData:6,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Schwerstes aller Schwerter",
+      "color": "#e08d0c",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme das Sword of Crom",
+      "color": "#d4a965",
+      "bold": false
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "custom:vertrauenswuerdiges_schwert",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword"
+            ],
+            "nbt": "{CustomModelData:6}"
+          }
+        ]
+      }
+    }
+  }
+}

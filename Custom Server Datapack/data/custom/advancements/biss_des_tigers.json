@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:iron_sword",
+      "nbt": "{CustomModelData:7,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Biss des Tigers",
+      "color": "#e08d0c",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme Tiger's Maw",
+      "color": "#d4a965",
+      "bold": false
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "custom:schwerstes_aller_schwerter",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:iron_sword"
+            ],
+            "nbt": "{CustomModelData:7}"
+          }
+        ]
+      }
+    }
+  }
+}

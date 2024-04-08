@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:elytra",
+      "nbt": "{CustomModelData:20,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Brennende Flügel",
+      "color": "#e08d0c",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme die Wings of the Phoenix",
+      "color": "#d4a965",
+      "bold": false
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "custom:essenz_des_wolfes",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:elytra"
+            ],
+            "nbt": "{CustomModelData:20}"
+          }
+        ]
+      }
+    }
+  }
+}

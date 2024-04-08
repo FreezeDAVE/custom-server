@@ -1,0 +1,54 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:leather_chestplate",
+      "nbt": "{CustomModelData:22,Enchantments:[{}],color:13838890,Trim:{material:\"minecraft:redstone\",pattern:\"minecraft:rib\"}}"
+    },
+    "title": {
+      "text": "Bewegliche Rüstung",
+      "color": "#e08d0c",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme die komplette Agile Rüstung",
+      "color": "#d4a965",
+      "bold": false
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "custom:brennende_fluegel",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:leather_helmet"
+            ],
+            "nbt": "{CustomModelData:21}"
+          },
+          {
+            "items": [
+              "minecraft:leather_chestplate"
+            ],
+            "nbt": "{CustomModelData:22}"
+          },
+          {
+            "items": [
+              "minecraft:leather_leggings"
+            ],
+            "nbt": "{CustomModelData:23}"
+          },
+          {
+            "items": [
+              "minecraft:leather_boots"
+            ],
+            "nbt": "{CustomModelData:24}"
+          }
+        ]
+      }
+    }
+  }
+}

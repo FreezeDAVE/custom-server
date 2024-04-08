@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_sword",
+      "nbt": "{CustomModelData:2,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Entflammte Klinge",
+      "color": "#e08d0c",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme die Burning Blade",
+      "color": "#d4a965",
+      "bold": false
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "custom:root",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_sword"
+            ],
+            "nbt": "{CustomModelData:2}"
+          }
+        ]
+      }
+    }
+  }
+}

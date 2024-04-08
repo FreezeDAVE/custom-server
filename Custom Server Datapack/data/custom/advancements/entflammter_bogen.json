@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:bow",
+      "nbt": "{CustomModelData:9,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Entflammter Bogen",
+      "color": "#e08d0c",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme den Blazing Bow",
+      "color": "#d4a965",
+      "bold": false
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "custom:biss_des_tigers",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:bow"
+            ],
+            "nbt": "{CustomModelData:9}"
+          }
+        ]
+      }
+    }
+  }
+}

@@ -1,0 +1,36 @@
+{
+  "display": {
+    "icon": {
+      "item": "minecraft:netherite_helmet",
+      "nbt": "{CustomModelData:17,Enchantments:[{}]}"
+    },
+    "title": {
+      "text": "Essenz des Wächters",
+      "color": "#e08d0c",
+      "bold": true
+    },
+    "description": {
+      "text": "Bekomme den Aspect of the Guardian",
+      "color": "#d4a965",
+      "bold": false
+    },
+    "frame": "challenge",
+    "hidden": true
+  },
+  "parent": "custom:essenz_des_golems",
+  "criteria": {
+    "requirement": {
+      "trigger": "minecraft:inventory_changed",
+      "conditions": {
+        "items": [
+          {
+            "items": [
+              "minecraft:netherite_helmet"
+            ],
+            "nbt": "{CustomModelData:17}"
+          }
+        ]
+      }
+    }
+  }
+}
