@@ -5,6 +5,10 @@ scoreboard players set @a kills 0
 scoreboard players set @a time_played 0
 scoreboard players set @a rockets_used 0
 scoreboard players set @a got_hardcore 0
+advancement revoke @a everything
+recipe take @a *
+experience set @a 0 levels
+experience set @a 0 points
 gamerule doDaylightCycle true
 gamerule doWeatherCycle true
 gamerule doMobSpawning true
